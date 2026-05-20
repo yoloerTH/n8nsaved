@@ -1,8 +1,5 @@
 # Use official n8n latest with TelePilot support
-FROM n8nio/n8n:2.20.12
-
-# Install TelePilot using official method
-RUN cd ~/.n8n/ && mkdir -p nodes && cd nodes && npm install @telepilotco/n8n-nodes-telepilot
+FROM n8nio/n8n:2.21.0
 
 # Verify installation
 RUN ls -la ~/.n8n/nodes/
