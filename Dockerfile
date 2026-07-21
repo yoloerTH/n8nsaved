@@ -1,5 +1,5 @@
 # Use official n8n latest
-FROM n8nio/n8n:2.21.0
+FROM n8nio/n8n:2.29.8
 
 # Set environment for Railway
 ENV N8N_HOST=0.0.0.0
